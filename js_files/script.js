@@ -23,7 +23,32 @@ startButton.addEventListener('click', () => {
 });
 
 
+//go to subpage
+document.getElementById("interactive_design").addEventListener("click", function() {
+  window.location.href = "Project_InteractiveDesign.html";
+});
+document.getElementById("3D").addEventListener("click", function() {
+  window.location.href = "Project_3D.html";
+});
+document.getElementById("Nanjing").addEventListener("click", function() {
+  window.location.href = "Project_Nanjing.html";
+});
+document.getElementById("Ocean").addEventListener("click", function() {
+  window.location.href = "Project_Ocean.html";
+});
+document.getElementById("Chang").addEventListener("click", function() {
+  window.location.href = "Project_Chang.html";
+});
+document.getElementById("Discursive").addEventListener("click", function() {
+  window.location.href = "Project_Discursive.html";
+});
+document.getElementById("HXZ").addEventListener("click", function() {
+  window.location.href = "Project_HXZ.html";
+});
 
+document.getElementById("D").addEventListener("click", function() {
+  window.location.href = "Project_D.html";
+});
 // Intro page animation
 const introPage = document.getElementById('intro-page');
 const mainContent = document.getElementById('main-content');
